@@ -1,3 +1,4 @@
+/* Some Global Styling */
 *{
     margin:0;
     padding:0;
@@ -13,3 +14,40 @@ button, input, textarea{
     outline:0;
     border:0;
 }
+
+
+/* Notification promt styling */
+#notification_container{
+    display:flex;
+    flex-direction: column-reverse;
+    position: fixed;
+    top:10px;
+    right:10px;
+}
+.notification{
+    position:relative;
+    display:flex;
+    background-color: bisque;
+    flex-direction: row;
+    width:200px;
+    padding:10px 40px 10px 10px;
+    font-size: 14px;    
+
+}
+.notificationButton{
+    position: absolute;
+    top:7px;
+    right:10px;
+    display:flex;
+    align-self: flex-end;
+    padding:10px;
+    height:25px;
+    width:25px;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    border-radius: 50%;
+}
+
+
+
